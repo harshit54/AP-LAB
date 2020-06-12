@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Dice Simulator</title>
+        <script>
+            function diceGenerator()
+            {
+                for(var i = 0; i < 30; i++) {
+                    document.write("<h1 style=\"display: inline; color: tomato; font-family=sans-serif;\">"+ (Math.ceil(6*Math.random())).toString()+ " </h1>");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="font-family: sans-serif; color: blueviolet;">Simulate A Dice 30 Times By Clicking on the Button.</h1>
+        <button onclick="diceGenerator()">Click Me!</button>
+    </body> 
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title> Simple Sum </title>
+        <script>
+            function addNumber(firstNo,secondNo)
+            {
+                var returnValue="Result is :";
+                function add()
+                {
+                    return returnValue+(firstNo+secondNo);
+                }
+                return add();
+            }
+            var a=addNumber(20,45);
+            document.write("<h1>" + String(a) + "</h1>");
+        </script>
+        <style>
+            body
+            {
+                background-color: #2A2D34;
+                font-family: cursive;
+            }
+            h1
+            {
+                display: inline;
+                background-color: rgb(74, 165, 147);
+                position: relative;
+                top: 0px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        </style>
+    </head>
+</html>
